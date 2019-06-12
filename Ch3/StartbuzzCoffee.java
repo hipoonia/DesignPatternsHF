@@ -22,6 +22,8 @@ public class StartbuzzCoffee {
 		
 		Beverage b4 = new Decaf();
 		b4 = new SteamedMilk(b4);
+		b4 = new Discount(b4);
+		b4 = new Discount(b4);
 		System.out.println(b4.getDescription() + " $" + b4.cost());
 	}
 }
