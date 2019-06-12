@@ -1,6 +1,5 @@
 public abstract class CondimentDecorator extends Beverage {
-// First, we need to be interchangeable with a Beverage, so we extend the Beverage class
-	
+// First, we need to be interchange
 	
 	public abstract String getDescription();
 }

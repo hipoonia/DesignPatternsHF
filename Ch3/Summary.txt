@@ -1,0 +1,4 @@
+java.io I/O classes are largely based on Decorator.
+
+BufferedInputStream and LineNumberInputStream both extend
+FilterInputStream, which acts as the abstract decorator class.
