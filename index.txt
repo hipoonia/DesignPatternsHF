@@ -1,0 +1,4 @@
+ch1  : Strategy Patter
+Ch2  : Observer Patter
+Ch3  : Decorator Patter
+Ch4  : Factory Patter
