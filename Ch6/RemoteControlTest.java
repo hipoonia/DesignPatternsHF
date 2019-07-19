@@ -10,5 +10,12 @@ public class RemoteControlTest {
 		
 		remote.setCommand(lightOn);
 		remote.buttonWasPressed();
+		
+		
+		GarageDoor gd = new GarageDoor();
+		GarageDoorOpenCommand gdo = new GarageDoorOpenCommand(gd);
+		
+		remote.setCommand(gdo);
+		remote.buttonWasPressed();
 	}
 }
