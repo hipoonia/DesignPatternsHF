@@ -1,21 +1,33 @@
 public class Light {
 	
+	public String name;
 	private boolean on;
+	private boolean off;
 
 	public Light() {
 	
 		this.on = false;
+		this.off = false;
+	}
+	
+	public Light(String name) {
+	
+		this.on = false;
+		this.off = false;
+		this.name = name;
 	}
 	
 	public void on() {
 	
 		on = true;
-		System.out.println("Light is on");
+		off = false;
+		System.out.println(name + " Light is on");
 	}
 	
 	public void off() {
 	
 		on = false;
-		System.out.println("Light is off");
+		off = true;
+		System.out.println(name + " Light is off");
 	}
 }
